@@ -30,8 +30,6 @@
 
 	<properties>
 		<gatekeeperserver.version>4.0-SNAPSHOT</gatekeeperserver.version>
-		<!-- <therest.version>4.4.0</therest.version> -->
-		<!-- <gatekeeper.version>3.3.0</gatekeeper.version> -->
 		<storage.version>3.3.0</storage.version>
 		<json.version>2.0.1</json.version>
 		<log4j.version>2.0.0</log4j.version>
