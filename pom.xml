@@ -1,0 +1,104 @@
+<!-- ~ Copyright 2018, 2019 Uppsala University Library ~ ~ This file is part 
+	of Cora. ~ ~ Cora is free software: you can redistribute it and/or modify 
+	~ it under the terms of the GNU General Public License as published by ~ 
+	the Free Software Foundation, either version 3 of the License, or ~ (at your 
+	option) any later version. ~ ~ Cora is distributed in the hope that it will 
+	be useful, ~ but WITHOUT ANY WARRANTY; without even the implied warranty 
+	of ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the ~ GNU General 
+	Public License for more details. ~ ~ You should have received a copy of the 
+	GNU General Public License ~ along with Cora. If not, see <http://www.gnu.org/licenses 
+	/>. -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>se.uu.ub.cora</groupId>
+		<artifactId>cora-parent</artifactId>
+		<version>1.0.2</version>
+	</parent>
+
+	<artifactId>systemone-gatekeeper-war</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>war</packaging>
+
+	<name>Systemone Gatekeeper</name>
+	<build>
+		<finalName>gatekeeperserver</finalName>
+	</build>
+
+	<properties>
+		<gatekeeperserver.version>4.0-SNAPSHOT</gatekeeperserver.version>
+		<!-- <therest.version>4.4.0</therest.version> -->
+		<!-- <gatekeeper.version>3.3.0</gatekeeper.version> -->
+		<storage.version>3.3.0</storage.version>
+		<json.version>2.0.1</json.version>
+		<log4j.version>2.0.0</log4j.version>
+		<userpicker.version>3.1.0</userpicker.version>
+		<basicstorage.version>3.4.0</basicstorage.version>
+		<servlet-api.version>4.0.1</servlet-api.version>
+		<searchstorage.version>3.3.0</searchstorage.version>
+	</properties>
+
+	<scm>
+		<connection>scm:git:https://github.com/lsu-ub-uu/systemone-gatekeeper-war.git</connection>
+		<developerConnection>scm:git:https://github.com/lsu-ub-uu/systemone-gatekeeper-war.git</developerConnection>
+		<url>https://github.com/lsu-ub-uu/systemone-gatekeeper-war.git</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<dependencies>
+		<!-- Runtime -->
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>gatekeeperserver</artifactId>
+			<version>${gatekeeperserver.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>storage</artifactId>
+			<version>${storage.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>json</artifactId>
+			<version>${json.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>userpicker</artifactId>
+			<version>${userpicker.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>basicstorage</artifactId>
+			<version>${basicstorage.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>searchstorage</artifactId>
+			<version>${searchstorage.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>${servlet-api.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>
