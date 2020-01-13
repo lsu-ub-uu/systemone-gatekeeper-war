@@ -29,7 +29,7 @@
 	</build>
 
 	<properties>
-		<gatekeeperserver.version>4.0-SNAPSHOT</gatekeeperserver.version>
+		<gatekeeperserver.version>4.0.0</gatekeeperserver.version>
 		<storage.version>3.3.0</storage.version>
 		<json.version>2.0.1</json.version>
 		<log4j.version>2.0.0</log4j.version>
