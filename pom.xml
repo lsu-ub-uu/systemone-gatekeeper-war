@@ -26,14 +26,17 @@
 	</build>
 
 	<properties>
-		<gatekeeperserver.version>4.1.0</gatekeeperserver.version>
-		<storage.version>3.6.0</storage.version>
+		<gatekeeperserver.version>4.2.0</gatekeeperserver.version>
+		<gatekeeper.version>3.5.0</gatekeeper.version>
+		<coradata.version>3.7.0</coradata.version>
 		<json.version>2.1.0</json.version>
+		<storage.version>3.7.0</storage.version>
 		<log4j.version>2.1.0</log4j.version>
-		<userpicker.version>3.2.0</userpicker.version>
-		<basicstorage.version>3.12.0</basicstorage.version>
+		<basicdata.version>1.11.0</basicdata.version>
+		<userpicker.version>3.3.0</userpicker.version>
+		<basicstorage.version>3.14.0</basicstorage.version>
 		<servlet-api.version>4.0.1</servlet-api.version>
-		<searchstorage.version>3.4.0</searchstorage.version>
+		<searchstorage.version>3.5.0</searchstorage.version>
 	</properties>
 
 	<scm>
@@ -44,7 +47,12 @@
 	</scm>
 
 	<dependencies>
-		<!-- Runtime -->
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>gatekeeper</artifactId>
+			<version>${gatekeeper.version}</version>
+			<scope>compile</scope>
+		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>gatekeeperserver</artifactId>
@@ -53,8 +61,14 @@
 		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
-			<artifactId>storage</artifactId>
-			<version>${storage.version}</version>
+			<artifactId>coradata</artifactId>
+			<version>${coradata.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>basicdata</artifactId>
+			<version>${basicdata.version}</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
@@ -62,6 +76,12 @@
 			<artifactId>json</artifactId>
 			<version>${json.version}</version>
 			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>storage</artifactId>
+			<version>${storage.version}</version>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
@@ -81,6 +101,7 @@
 			<version>${basicstorage.version}</version>
 			<scope>runtime</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>searchstorage</artifactId>
