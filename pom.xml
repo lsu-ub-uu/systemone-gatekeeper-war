@@ -13,11 +13,11 @@
 	<parent>
 		<groupId>se.uu.ub.cora</groupId>
 		<artifactId>cora-parent</artifactId>
-		<version>1.4.1</version>
+		<version>1.4.4</version>
 	</parent>
 
 	<artifactId>systemone-gatekeeper-war</artifactId>
-	<version>1.4-SNAPSHOT</version>
+	<version>2.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>Systemone Gatekeeper</name>
@@ -27,7 +27,7 @@
 
 	<properties>
 		<gatekeeper.version>3.7.0</gatekeeper.version>
-		<gatekeeperserver.version>4.5.0</gatekeeperserver.version>
+		<gatekeeperserver.version>5.0.0</gatekeeperserver.version>
 		<coradata.version>5.1.0</coradata.version>
 		<json.version>2.5.0</json.version>
 		<storage.version>4.2.0</storage.version>
@@ -35,7 +35,7 @@
 		<basicdata.version>3.2.0</basicdata.version>
 		<userpicker.version>3.5.0</userpicker.version>
 		<basicstorage.version>5.1.0</basicstorage.version>
-		<servlet-api.version>4.0.1</servlet-api.version>
+		<servlet-api.version>5.0.0</servlet-api.version>
 		<searchstorage.version>3.7.0</searchstorage.version>
 	</properties>
 
@@ -109,8 +109,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
+			<groupId>jakarta.servlet</groupId>
+			<artifactId>jakarta.servlet-api</artifactId>
 			<version>${servlet-api.version}</version>
 			<scope>provided</scope>
 		</dependency>
