@@ -26,17 +26,17 @@
 	</build>
 
 	<properties>
-		<gatekeeper.version>3.12.0</gatekeeper.version>
-		<gatekeeperserver.version>5.5.0</gatekeeperserver.version>
-		<coradata.version>7.0-SNAPSHOT</coradata.version>
+		<gatekeeper.version>3.13.0</gatekeeper.version>
+		<gatekeeperserver.version>5.6.0</gatekeeperserver.version>
+		<coradata.version>7.0.0</coradata.version>
 		<json.version>3.3.0</json.version>
-		<storage.version>6.1.0</storage.version>
+		<storage.version>6.2.0</storage.version>
 		<log4j.version>2.9.0</log4j.version>
-		<basicdata.version>3.7.0</basicdata.version>
-		<userpicker.version>3.10.0</userpicker.version>
-		<basicstorage.version>5.5.0</basicstorage.version>
+		<basicdata.version>4.0.0</basicdata.version>
+		<userpicker.version>3.11.0</userpicker.version>
+		<basicstorage.version>6.0.0</basicstorage.version>
 		<servlet-api.version>5.0.0</servlet-api.version>
-		<searchstorage.version>3.12.0</searchstorage.version>
+		<searchstorage.version>3.13.0</searchstorage.version>
 	</properties>
 
 	<scm>
