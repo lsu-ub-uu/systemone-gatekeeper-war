@@ -26,15 +26,18 @@
 	</build>
 
 	<properties>
-		<gatekeeper.version>3.14.0</gatekeeper.version>
-		<gatekeeperserver.version>5.7.0</gatekeeperserver.version>
-		<coradata.version>7.1.0</coradata.version>
+		<initialize.version>1.0-SNAPSHOT</initialize.version>
+		<gatekeeper.version>4.0-SNAPSHOT</gatekeeper.version>
+		<gatekeeperserver.version>5.8-SNAPSHOT</gatekeeperserver.version>
+		<coradata.version>7.2-SNAPSHOT</coradata.version>
 		<json.version>3.3.0</json.version>
-		<storage.version>6.4.0</storage.version>
+		<spider.version>7.3-SNAPSHOT</spider.version>
+		<storage.version>7.0-SNAPSHOT</storage.version>
 		<log4j.version>2.9.0</log4j.version>
-		<basicdata.version>4.1.0</basicdata.version>
-		<userpicker.version>3.12.0</userpicker.version>
-		<basicstorage.version>6.1.0</basicstorage.version>
+		<basicdata.version>5.0-SNAPSHOT</basicdata.version>
+		<userpicker.version>4.0-SNAPSHOT</userpicker.version>
+		<userstorage.version>1.0-SNAPSHOT</userstorage.version>
+		<basicstorage.version>7.0-SNAPSHOT</basicstorage.version>
 		<servlet-api.version>5.0.0</servlet-api.version>
 		<searchstorage.version>3.14.0</searchstorage.version>
 	</properties>
@@ -47,6 +50,12 @@
 	</scm>
 
 	<dependencies>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>initialize</artifactId>
+			<version>${initialize.version}</version>
+			<scope>compile</scope>
+		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>gatekeeper</artifactId>
@@ -79,6 +88,12 @@
 		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>spider</artifactId>
+			<version>${spider.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>storage</artifactId>
 			<version>${storage.version}</version>
 			<scope>runtime</scope>
@@ -94,6 +109,12 @@
 			<artifactId>userpicker</artifactId>
 			<version>${userpicker.version}</version>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>userstorage</artifactId>
+			<version>${userstorage.version}</version>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
