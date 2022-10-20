@@ -26,20 +26,20 @@
 	</build>
 
 	<properties>
-		<initialize.version>1.0-SNAPSHOT</initialize.version>
-		<gatekeeper.version>4.0-SNAPSHOT</gatekeeper.version>
-		<gatekeeperserver.version>5.8-SNAPSHOT</gatekeeperserver.version>
-		<coradata.version>7.2-SNAPSHOT</coradata.version>
-		<json.version>3.3.0</json.version>
-		<spider.version>7.3-SNAPSHOT</spider.version>
-		<storage.version>7.0-SNAPSHOT</storage.version>
-		<log4j.version>2.9.0</log4j.version>
-		<basicdata.version>5.0-SNAPSHOT</basicdata.version>
-		<userpicker.version>4.0-SNAPSHOT</userpicker.version>
-		<userstorage.version>1.0-SNAPSHOT</userstorage.version>
-		<basicstorage.version>7.0-SNAPSHOT</basicstorage.version>
+		<initialize.version>1.0.0</initialize.version>
+		<gatekeeper.version>4.0.0</gatekeeper.version>
+		<gatekeeperserver.version>5.8.0</gatekeeperserver.version>
+		<coradata.version>7.2.0</coradata.version>
+		<json.version>3.4.0</json.version>
+		<spider.version>7.3.0</spider.version>
+		<storage.version>7.0.0</storage.version>
+		<log4j.version>2.10.0</log4j.version>
+		<basicdata.version>5.0.0</basicdata.version>
+		<userpicker.version>4.0.0</userpicker.version>
+		<userstorage.version>1.1.0</userstorage.version>
+		<basicstorage.version>7.0.0</basicstorage.version>
 		<servlet-api.version>5.0.0</servlet-api.version>
-		<searchstorage.version>3.14.0</searchstorage.version>
+		<searchstorage.version>3.15.0</searchstorage.version>
 	</properties>
 
 	<scm>
