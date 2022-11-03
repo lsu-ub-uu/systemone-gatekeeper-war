@@ -32,14 +32,14 @@
 		<coradata.version>7.5.0</coradata.version>
 		<json.version>3.7.0</json.version>
 		<spider.version>7.6.0</spider.version>
-		<storage.version>7.3.0</storage.version>
+		<storage.version>8.0-SNAPSHOT</storage.version>
 		<log4j.version>2.13.0</log4j.version>
 		<basicdata.version>5.3.0</basicdata.version>
 		<userpicker.version>4.3.0</userpicker.version>
-		<userstorage.version>1.4.0</userstorage.version>
-		<basicstorage.version>7.3.0</basicstorage.version>
+		<userstorage.version>1.5-SNAPSHOT</userstorage.version>
+		<basicstorage.version>7.4-SNAPSHOT</basicstorage.version>
 		<servlet-api.version>5.0.0</servlet-api.version>
-		<searchstorage.version>3.18.0</searchstorage.version>
+		<searchstorage.version>3.19-SNAPSHOT</searchstorage.version>
 	</properties>
 
 	<scm>
