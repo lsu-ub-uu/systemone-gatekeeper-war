@@ -17,7 +17,7 @@
 	</parent>
 
 	<artifactId>systemone-gatekeeper-war</artifactId>
-	<version>2.13.0</version>
+	<version>2.13.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>Systemone Gatekeeper</name>
@@ -45,7 +45,7 @@
 		<connection>scm:git:https://github.com/lsu-ub-uu/systemone-gatekeeper-war.git</connection>
 		<developerConnection>scm:git:https://github.com/lsu-ub-uu/systemone-gatekeeper-war.git</developerConnection>
 		<url>https://github.com/lsu-ub-uu/systemone-gatekeeper-war.git</url>
-		<tag>systemone-gatekeeper-war-2.13.0</tag>
+		<tag>release/2.13</tag>
 	</scm>
 
 	<dependencies>
