@@ -37,6 +37,8 @@
 		<userpicker.version>4.4.0</userpicker.version>
 		<userstorage.version>1.6.0</userstorage.version>
 		<basicstorage.version>7.7.0</basicstorage.version>
+		<sqlstorage.version>2.9.0</sqlstorage.version>
+		<sqldatabase.version>7.0.0</sqldatabase.version>
 		<servlet-api.version>5.0.0</servlet-api.version>
 		<searchstorage.version>3.19.0</searchstorage.version>
 	</properties>
@@ -117,11 +119,22 @@
 		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>sqlstorage</artifactId>
+			<version>${sqlstorage.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>sqldatabase</artifactId>
+			<version>${sqldatabase.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>searchstorage</artifactId>
 			<version>${searchstorage.version}</version>
 			<scope>runtime</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>jakarta.servlet</groupId>
 			<artifactId>jakarta.servlet-api</artifactId>
