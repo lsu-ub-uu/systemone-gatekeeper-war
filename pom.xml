@@ -36,7 +36,7 @@
 		<basicdata.version>5.4.0</basicdata.version>
 		<userpicker.version>4.4.0</userpicker.version>
 		<userstorage.version>1.6.0</userstorage.version>
-		<basicstorage.version>7.6.0</basicstorage.version>
+		<basicstorage.version>7.7.0</basicstorage.version>
 		<servlet-api.version>5.0.0</servlet-api.version>
 		<searchstorage.version>3.19.0</searchstorage.version>
 	</properties>
