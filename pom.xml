@@ -30,12 +30,12 @@
 		<gatekeeper.version>4.3.0</gatekeeper.version>
 		<gatekeeperserver.version>5.12.0</gatekeeperserver.version>
 		<json.version>3.7.0</json.version>
-		<spider.version>7.8.0</spider.version>
+		<spider.version>8.0-SNAPSHOT</spider.version>
 		<storage.version>8.0.0</storage.version>
 		<log4j.version>2.13.0</log4j.version>
-		<basicdata.version>5.4.0</basicdata.version>
+		<basicdata.version>5.5-SNAPSHOT</basicdata.version>
 		<userpicker.version>4.4.0</userpicker.version>
-		<userstorage.version>1.6.0</userstorage.version>
+		<userstorage.version>1.7-SNAPSHOT</userstorage.version>
 		<basicstorage.version>7.7.0</basicstorage.version>
 		<sqlstorage.version>2.10.0</sqlstorage.version>
 		<sqldatabase.version>7.0.0</sqldatabase.version>
