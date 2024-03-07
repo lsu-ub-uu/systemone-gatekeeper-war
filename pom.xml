@@ -26,19 +26,19 @@
 	</build>
 
 	<properties>
-		<initialize.version>1.5.0</initialize.version>
-		<gatekeeper.version>4.5.0</gatekeeper.version>
-		<gatekeeperserver.version>5.14.0</gatekeeperserver.version>
-		<json.version>3.9.0</json.version>
-		<spider.version>8.1.0</spider.version>
-		<storage.version>9.0.0</storage.version>
-		<log4j.version>2.15.0</log4j.version>
-		<basicdata.version>5.6.0</basicdata.version>
-		<userpicker.version>4.6.0</userpicker.version>
-		<userstorage.version>1.9.0</userstorage.version>
-		<basicstorage.version>7.9.0</basicstorage.version>
-		<sqlstorage.version>2.12.0</sqlstorage.version>
-		<sqldatabase.version>7.2.0</sqldatabase.version>
+		<initialize.version>1.6.0</initialize.version>
+		<gatekeeper.version>4.6.0</gatekeeper.version>
+		<gatekeeperserver.version>5.15.0</gatekeeperserver.version>
+		<json.version>3.10.0</json.version>
+		<spider.version>8.2.0</spider.version>
+		<storage.version>9.1.0</storage.version>
+		<log4j.version>2.16.0</log4j.version>
+		<basicdata.version>5.7.0</basicdata.version>
+		<userpicker.version>4.7.0</userpicker.version>
+		<userstorage.version>1.10.0</userstorage.version>
+		<basicstorage.version>7.10.0</basicstorage.version>
+		<sqlstorage.version>2.13.0</sqlstorage.version>
+		<sqldatabase.version>7.3.0</sqldatabase.version>
 		<servlet-api.version>5.0.0</servlet-api.version>
 <!--		<searchstorage.version>3.19.0</searchstorage.version>-->
 	</properties>
