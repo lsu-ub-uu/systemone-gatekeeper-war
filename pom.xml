@@ -40,7 +40,6 @@
 		<sqlstorage.version>2.13.0</sqlstorage.version>
 		<sqldatabase.version>7.3.0</sqldatabase.version>
 		<servlet-api.version>5.0.0</servlet-api.version>
-<!--		<searchstorage.version>3.19.0</searchstorage.version>-->
 	</properties>
 
 	<scm>
@@ -129,12 +128,6 @@
 			<version>${sqldatabase.version}</version>
 			<scope>runtime</scope>
 		</dependency>
-<!--		<dependency>-->
-<!--			<groupId>se.uu.ub.cora</groupId>-->
-<!--			<artifactId>searchstorage</artifactId>-->
-<!--			<version>${searchstorage.version}</version>-->
-<!--			<scope>runtime</scope>-->
-<!--		</dependency>-->
 		<dependency>
 			<groupId>jakarta.servlet</groupId>
 			<artifactId>jakarta.servlet-api</artifactId>
