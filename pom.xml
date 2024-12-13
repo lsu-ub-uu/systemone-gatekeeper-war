@@ -28,7 +28,7 @@
 	<properties>
 		<initialize.version>1.6.0</initialize.version>
 		<gatekeeper.version>5.0.0</gatekeeper.version>
-		<gatekeeperserver.version>6.0.0</gatekeeperserver.version>
+		<gatekeeperserver.version>6.1-SNAPSHOT</gatekeeperserver.version>
 		<json.version>3.10.0</json.version>
 		<spider.version>9.0.0</spider.version>
 		<storage.version>9.3.0</storage.version>
