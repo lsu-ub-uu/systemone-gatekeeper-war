@@ -27,15 +27,15 @@
 
 	<properties>
 		<initialize.version>1.6.0</initialize.version>
-		<gatekeeper.version>5.0.0</gatekeeper.version>
-		<gatekeeperserver.version>6.1.0</gatekeeperserver.version>
+		<gatekeeper.version>5.1.0</gatekeeper.version>
+		<gatekeeperserver.version>6.2.0</gatekeeperserver.version>
 		<json.version>3.10.0</json.version>
 		<spider.version>9.5.0</spider.version>
 		<storage.version>9.5.0</storage.version>
 		<log4j.version>2.16.0</log4j.version>
 		<basicdata.version>6.0.0</basicdata.version>
 		<userpicker.version>4.8.0</userpicker.version>
-		<userstorage.version>1.15.0</userstorage.version>
+		<userstorage.version>1.17.0</userstorage.version>
 		<basicstorage.version>7.16.0</basicstorage.version>
 		<sqlstorage.version>2.14.0</sqlstorage.version>
 		<sqldatabase.version>7.3.0</sqldatabase.version>
