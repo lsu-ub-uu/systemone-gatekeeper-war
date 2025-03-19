@@ -37,7 +37,7 @@
 		<userpicker.version>4.8.0</userpicker.version>
 		<userstorage.version>1.17.0</userstorage.version>
 		<basicstorage.version>7.16.0</basicstorage.version>
-		<sqlstorage.version>2.14.0</sqlstorage.version>
+		<sqlstorage.version>2.15-SNAPSHOT</sqlstorage.version>
 		<sqldatabase.version>7.3.0</sqldatabase.version>
 		<servlet-api.version>6.1.0</servlet-api.version>
 		<messaging.version>3.1-SNAPSHOT</messaging.version>
