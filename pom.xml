@@ -28,20 +28,20 @@
 	<properties>
 		<initialize.version>1.6.0</initialize.version>
 		<gatekeeper.version>5.2.0</gatekeeper.version>
-		<gatekeeperserver.version>6.5-SNAPSHOT</gatekeeperserver.version>
+		<gatekeeperserver.version>6.5.0</gatekeeperserver.version>
 		<json.version>3.10.0</json.version>
-		<spider.version>9.5.0</spider.version>
+		<spider.version>9.6.0</spider.version>
 		<storage.version>9.7.0</storage.version>
 		<log4j.version>2.16.0</log4j.version>
 		<basicdata.version>6.0.0</basicdata.version>
 		<userpicker.version>4.8.0</userpicker.version>
 		<userstorage.version>1.17.0</userstorage.version>
-		<basicstorage.version>7.16.0</basicstorage.version>
-		<sqlstorage.version>2.15-SNAPSHOT</sqlstorage.version>
+		<basicstorage.version>7.17.0</basicstorage.version>
+		<sqlstorage.version>2.15.0</sqlstorage.version>
 		<sqldatabase.version>7.3.0</sqldatabase.version>
 		<servlet-api.version>6.1.0</servlet-api.version>
-		<messaging.version>3.1-SNAPSHOT</messaging.version>
-		<rabbitmq.version>3.1-SNAPSHOT</rabbitmq.version>
+		<messaging.version>3.1.0</messaging.version>
+		<rabbitmq.version>3.1.0</rabbitmq.version>
 	</properties>
 
 	<scm>
