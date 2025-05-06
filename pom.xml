@@ -17,7 +17,7 @@
 	</parent>
 
 	<artifactId>systemone-gatekeeper-war</artifactId>
-	<version>2.28-SNAPSHOT</version>
+	<version>2.29-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>Systemone Gatekeeper</name>
