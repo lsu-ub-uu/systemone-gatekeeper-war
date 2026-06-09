@@ -13,7 +13,7 @@
 	<parent>
 		<groupId>se.uu.ub.cora</groupId>
 		<artifactId>cora-parent</artifactId>
-		<version>2.7.0</version>
+		<version>3.2.0</version>
 	</parent>
 
 	<artifactId>systemone-gatekeeper-war</artifactId>
@@ -26,19 +26,19 @@
 	</build>
 
 	<properties>
-		<initialize.version>1.7.0</initialize.version>
+		<initialize.version>1.8.0</initialize.version>
 		<gatekeeper.version>5.2.0</gatekeeper.version>
 		<gatekeeperserver.version>6.7.0</gatekeeperserver.version>
 		<json.version>3.10.0</json.version>
-		<spider.version>9.19.0</spider.version>
-		<storage.version>9.8.0</storage.version>
+		<spider.version>10.10.0</spider.version>
+		<storage.version>10.0.0</storage.version>
 		<log4j.version>2.16.0</log4j.version>
-		<basicdata.version>6.5.0</basicdata.version>
+		<basicdata.version>7.2.0</basicdata.version>
 		<userpicker.version>4.8.0</userpicker.version>
 		<userstorage.version>1.17.0</userstorage.version>
-		<basicstorage.version>7.17.0</basicstorage.version>
-		<sqlstorage.version>2.15.0</sqlstorage.version>
-		<sqldatabase.version>7.3.0</sqldatabase.version>
+		<basicstorage.version>7.19.0</basicstorage.version>
+		<sqlstorage.version>2.17.0</sqlstorage.version>
+		<sqldatabase.version>7.7.0</sqldatabase.version>
 		<servlet-api.version>6.1.0</servlet-api.version>
 		<messaging.version>3.1.0</messaging.version>
 		<rabbitmq.version>3.1.0</rabbitmq.version>
